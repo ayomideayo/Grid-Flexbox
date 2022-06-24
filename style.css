@@ -1,0 +1,140 @@
+
+body{
+background-color: white;
+margin:0; 
+padding:0;
+width:75%;
+overflow-x: hidden;
+
+}
+
+.heading{
+  padding: 5px;
+  text-align: right;
+  color: rgb(24, 24, 24);
+  
+  }
+  
+  a{
+      color: black;
+      text-decoration: none;
+      font-size: larger;
+      margin: auto;
+    
+      font-weight: bold;
+  }
+
+main{
+  display: flex;
+  padding: 50px;
+  flex-direction: row;
+  align-items:center;
+  justify-items: center;
+  margin: auto;
+   
+}
+
+.sedan {
+  background-color: rgb(224,134,38);
+  width: 33%;
+  font-size: larger;
+  height: 60%;
+  padding: 10px;
+  border-radius: 25px  0px 0px 25px;
+  border: none;
+
+  
+}
+.sedan h3{
+  color: white;
+  font-family: 'Big Shoulders Text', cursive;
+  padding: 5px;
+}
+
+.sedan div{
+  color: white;
+  padding:5px;
+   font-size:small;
+   font-family: 'Lexend Deca', sans-serif;
+   font-weight: 400;
+ 
+}
+.sedanlearn{
+  color:rgb(224,134,38);
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 25px ;
+  width: 125px;
+  text-align: center;
+ margin-top: 45px;
+}
+.suvs{
+  background-color: rgb(1,105,114);
+  height: 60%;
+  font-size: larger;
+  width: 33%;
+  padding: 10px;
+  
+}
+
+
+.suvs h3{
+  color: white;
+  font-family: 'Big Shoulders Text', cursive;
+  padding: 5px;
+}
+
+.suvs div{
+  color: white;
+  padding:5px;
+   font-size:small;
+   font-family: 'Lexend Deca', sans-serif;
+   font-weight: 400;}
+
+.suvslearn{ 
+  color:  rgb(1,105,114);
+  background-color: white;
+  padding: 5px;
+  border: none;
+  border-radius: 25px ;
+  width: 125px;
+  text-align: center;
+ margin-top: 45px;
+}
+
+.luxury{
+  background-color:rgb(0,64,63);
+    width: 33%;
+  font-size: larger;
+  height:  60%;
+  padding: 10px;
+ border-radius:0px  25px  25px  0px;
+  border: none;
+
+}
+
+
+.luxury h3{
+  color: white;
+  font-family: 'Big Shoulders Text', cursive;
+  padding: 5px;
+}
+  
+.luxury div{
+  color: white;
+  padding:5px;
+   font-size:small;
+   font-family: 'Lexend Deca', sans-serif;
+   font-weight: 400;}
+  
+   .luxurylearn{ 
+    color: rgb(0,64,63);
+    background-color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 25px ;
+    width: 125px;
+    text-align: center;
+   margin-top: 45px;
+  }
